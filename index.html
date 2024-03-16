@@ -4,65 +4,61 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Mi Primer Sitio Web</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
    </head>
    <body>
       <header>
-
-        <hr/>
-        <h1>La Mirada Artística</h1>
-        <hr/>
-
-        <section>
-        <button><scan>HOME</scan></button>
-        
-        <button><scan>OBRAS SELECTAS</scan></button>
-        
-        <button><scan>MI HISTORIA</scan></button>
-
+      <div>
+        <section id="principal">
+        <h1 id="tituloprincipal">La Mirada Artística</h1>
+        </section>
+      </div>
+      <div>
+        <section id="menu">
+        <a><scan href="HOME" class="TituloMenu">HOME</scan></a>
+        <a><scan href="OBRAS SELECTAS" class="TituloMenu">OBRAS SELECTAS</scan></a>
         </section>
         <hr/>
-
+      </div>
       </header>
-
-      <main>
-
-    <section>
-
+   <main>
+   <div>
+    <section id="obradeldia">
     <article>
     <h2>OBRA DEL DIA</h2>
     </article>
-
-    <article>
+    </section>
+   </div>
+   <div>
+    <article id="imagen">
     <img src="./descarga.jpg"> 
     </article>
-
+   </div>
+   <div>
+   <section>
     <article>
     <h1>La Gran Ola De Kanawa</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, animi labore quibusdam adipisci totam commodi atque non optio qui unde? Sunt quos iure fugiat consequuntur fugit molestiae ad nulla neque.</p>
     </article>
-
     <hr/>
-
-</section> 
-    
-
+   </section> 
+   </div>
 </main>
-
 <footer>
-
+<div class="footer">
+<section>
 <h3>Recibe avisos de mis publicaciones</h3>
-
+</section>
+</div>
 <form>
-
-<div>
+<div class="footer">
 <label for="nombre" >Nombre: </label>
 <input type="text" name="nombre" />
-</div>
-
-<div>
 <label for="apellido">apellido: </label>
 <input type="text" name="nombre" />
+<button>Enviar</button>
 </div>
+
 
 </form>
 
